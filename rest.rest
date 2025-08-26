@@ -1,0 +1,19 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "superuser",
+    "email": "ulum4444@gmail.com",
+    "password": "ulum99",
+    "role": "admin"
+}
+###
+
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "ulum4444@gmail.com",
+    "password": "ulum99"
+}
+
